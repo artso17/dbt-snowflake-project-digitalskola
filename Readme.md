@@ -1,4 +1,22 @@
-# How to DBT Init
+# DBT-Snowflake Project 4 Digital Skola
+
+## Project Brief
+
+The project aimed to gain my skills of Data Engineering regarding Best Practice of Pipeline using DBT and Snowflake. DBT is a tool to build useful documentation of Data Pipeline process start with Data Raw Collection, Data Transforming and Data Mart. 
+
+## Success Criteria
+
+- Connect to Snowflake
+- Classify models : stagging, intermediate, mart in `dbt_project.yml`
+- Configure `schema.yml` and `sources.yml`
+- Run and learn behaviours of `dbt run -s <model>`, `dbt build`, `dbt test`, `dbt deps`
+- Generate documentation and run the UI
+- Implement best practice using macros `dbt_utils` like `star` macros
+
+
+
+
+### How to DBT Init
 1. Create python virtual environment `python3 -m venv env`
 2. Install the requirements.txt `python3 -m pip install -r requirements.txt`
 3. Initialize DBT project `dbt init`. Identifier account should be : `<orgname>-<account_name>`
@@ -9,7 +27,7 @@
 8. Setup profiles.yml https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup
 9. Setup sources https://docs.getdbt.com/docs/build/sources
 
-# Hardening profiles.yml
+### Hardening profiles.yml
 1. Open the profiles.yml
 2. For the confidentials params/keys replace the value with `"{{ env_var('VAR_NAME') }}"`
 3. Run Command `EXPORT VAR_NAME=<confidential_value>`
