@@ -7,7 +7,7 @@ The project aimed to gain my skills of Data Engineering regarding Best Practice 
 ## Success Criteria
 
 - Connect to Snowflake
-- Classify models : stagging, intermediate, mart in `dbt_project.yml`
+- Classify models : stagging, intermediate, mart in `digitalskola_climate/dbt_project.yml`
 - Configure `schema.yml` and `sources.yml`
 - Run and learn behaviours of `dbt run -s <model>`, `dbt build`, `dbt test`, `dbt deps`
 - Generate documentation and run the UI
