@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: delay_deliveries
+    description: "Calculate how many deliveries have been delayed"
+    columns:
+      - name: country
+        description: "The name of country"
+        # tests:
+        #   - not_null
+
+      - name: postal_code
+        description: "The code of postal"
+        # tests:
+        #   - unique
+          
+      - name: date_valid_std
+        description: "date of deliveries"
+
+      - name: tot_snowfall_in
+        description: "Number of ...."      
