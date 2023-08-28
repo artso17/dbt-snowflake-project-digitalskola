@@ -5,7 +5,7 @@
 The project aimed to gain my skills of Data Engineering regarding Best Practice of Pipeline using DBT and Snowflake. DBT is a tool to build useful documentation of Data Pipeline process start with Data Raw Collection, Data Transforming and Data Mart. 
 
 ## Success Criteria
-- Instantiate dbt project directory namely `digitalskola`
+- Instantiate dbt project directory namely `digitalskola_climate`
 - Connect to Snowflake
 - Classify models : stagging, intermediate, mart in `digitalskola_climate/dbt_project.yml`
 - Configure `schema.yml` and `sources.yml`
