@@ -1,4 +1,4 @@
-# DBT-Snowflake Project 4 Digital Skola
+# Integration Batch Projection with DBT-Snowflake Project 4 Digital Skola
 
 ## Project Brief
 
